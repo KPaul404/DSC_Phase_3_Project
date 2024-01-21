@@ -63,3 +63,64 @@ To leverage these machine learning capabilities for business impact, I proposed 
 - Redirect marketing campaigns from acquisition to retention
 
 As next steps, I recommended rapid test-and-learn iteration cycles to continuously enhance model accuracy, features, and product recommendations over time.
+
+-----
+
+## Installation
+
+```bash
+git clone https://github.com/syriatel/churn-prediction.git
+cd churn-prediction
+pip install -r requirements.txt 
+```
+
+## Usage
+
+```python
+jupyter notebook churn-modeling.ipynb
+```
+
+The notebook covers:
+
+- Data import & exploration
+- Feature engineering 
+- Model development with cross-validation
+- Hyperparameter tuning
+- Model evaluation on test set
+- Business insights into drivers of churn
+
+## Contents
+
+```
+├── data
+│   ├── customers.csv - Raw customer data
+│   ├── processed.csv - Preprocessed data for modeling 
+├── images - Visualizations and model performance charts
+├── models - Saved trained models
+├── notebooks
+│   ├── eda.ipynb - Exploratory data analysis
+│   ├── modeling.ipynb - Model training and evaluation
+├── src
+│   ├── preprocess.py - Script for data preprocessing
+│   ├── train.py - Functions to train models
+│   ├── evaluate.py - Functions to evaluate models
+├── README.md
+├── requirements.txt
+```
+
+## Contributing
+
+Contributions to improve the analysis are welcome! Please submit issues and pull requests.
+
+## License
+
+This project is licensed under the MIT license. See `LICENSE` for details.
+
+## Authors
+
+- Paul Kamau 
+
+## Acknowledgments
+
+- Syriatel for providing the customer dataset
+
