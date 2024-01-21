@@ -1,4 +1,4 @@
-# DSC_Phase_3_Project
+# Data Science Phase 3 Project 
 Syriatel is one of the two dominant mobile network providers in Syria, offering services under its Super Surf brand name. However, it faces growing competition from the recent entry of a third player, Wafa Telecom, which has received an additional telecom license in the country. 
 
 In this intensely competitive market, customer retention is paramount for Syriatel's continued dominance and long-term viability. Losing customers to rival providers directly impacts revenues and profitability. Therefore, Syriatel initiated an advanced analytics project to predict customer churn risk at an individual level and enable targeted retention initiatives.
