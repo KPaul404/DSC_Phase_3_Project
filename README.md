@@ -1,11 +1,12 @@
-# Data Science Phase 3 Project 
+# Customer Churn at Syriatel
+
 Syriatel is one of the two dominant mobile network providers in Syria, offering services under its Super Surf brand name. However, it faces growing competition from the recent entry of a third player, Wafa Telecom, which has received an additional telecom license in the country. 
 
 In this intensely competitive market, customer retention is paramount for Syriatel's continued dominance and long-term viability. Losing customers to rival providers directly impacts revenues and profitability. Therefore, Syriatel initiated an advanced analytics project to predict customer churn risk at an individual level and enable targeted retention initiatives.
 
 As the lead data scientist on this project, I developed machine learning models to identify customers likely to churn. The models provide actionable insights to our marketing and customer retention teams on which customers need proactive retention incentives. This approach aligns tightly with Syriatel's strategic imperative of retaining customers in an evolving telecom landscape.
 
-Problem Definition
+# Problem Definition
 
 Syriatel lacked visibility into early warning signs that a customer may be likely to churn. Without a systematic way to predict churn risk, customer losses were often invisible until after the event had occurred.
 
@@ -13,7 +14,7 @@ My project aimed to solve this issue by harnessing customer data to forecast ind
 
 By training advanced machine learning algorithms on this data, I sought to uncover patterns that characterize churn behavior. These predictive insights enable our retention teams to get ahead of potential customer losses.
 
-Data Exploration and Analysis
+# Data Exploration and Analysis
 
 My first task was thoroughly analyzing this customer dataset to ensure suitability for modeling. I performed extensive exploratory analysis, including:
 
@@ -28,7 +29,7 @@ These exploratory insights already shed light on potential churn drivers. Furthe
 The outcome was a high-quality, churn-specific dataset primed for supervised machine learning algorithms to uncover intricate churn patterns.
 
 
-Model Development and Evaluation
+# Model Development and Evaluation
 
 With a target variable of customer churn status and 19 descriptive attributes, I tested various modeling techniques:
 
@@ -52,7 +53,7 @@ Additionally, I extracted model insights on the most influential indicators of c
 These comprehensive analytical evaluations solidified the suitability of the XGBoost algorithm for integrating into Syriatel’s customer retention infrastructure.
 
 
-Strategic Recommendations 
+# Strategic Recommendations 
 To leverage these machine learning capabilities for business impact, I proposed a strategic roadmap:
 
 - Deploy the XGBoost model for real-time customer churn predictions
